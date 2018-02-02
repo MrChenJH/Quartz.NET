@@ -1,0 +1,4 @@
+F:\socket\WebApplication1\Dll\bin\Debug\Dll.dll
+F:\socket\WebApplication1\Dll\bin\Debug\Dll.pdb
+F:\socket\WebApplication1\Dll\obj\Debug\Dll.dll
+F:\socket\WebApplication1\Dll\obj\Debug\Dll.pdb

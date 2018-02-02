@@ -1,0 +1,12 @@
+F:\tool\Quartz.NET-2.6\build\4.0\Debug\Quartz\Quartz.dll
+F:\tool\Quartz.NET-2.6\build\4.0\Debug\Quartz\Quartz.pdb
+F:\tool\Quartz.NET-2.6\build\4.0\Debug\Quartz\Quartz.xml
+F:\tool\Quartz.NET-2.6\src\Quartz\obj\Debug\Quartz.dll
+F:\tool\Quartz.NET-2.6\src\Quartz\obj\Debug\Quartz.pdb
+F:\tool\Quartz.NET-2.6\src\Quartz\obj\Debug\Quartz.2010.csprojResolveAssemblyReference.cache
+F:\winform\Quartz.NET-2.6\build\4.0\Debug\Quartz\Quartz.dll
+F:\winform\Quartz.NET-2.6\build\4.0\Debug\Quartz\Quartz.pdb
+F:\winform\Quartz.NET-2.6\build\4.0\Debug\Quartz\Quartz.xml
+F:\winform\Quartz.NET-2.6\src\Quartz\obj\Debug\Quartz.2010.csproj.CoreCompileInputs.cache
+F:\winform\Quartz.NET-2.6\src\Quartz\obj\Debug\Quartz.dll
+F:\winform\Quartz.NET-2.6\src\Quartz\obj\Debug\Quartz.pdb

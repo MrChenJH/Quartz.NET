@@ -1,0 +1,40 @@
+﻿using System;
+using System.IO;
+using System.ServiceModel;
+using System.ServiceModel.Description;
+using Topshelf;
+
+namespace Quartz.Server
+{
+    /// <summary>
+    /// The server's main entry point.
+    /// </summary>
+    public static class Program
+    {
+        /// <summary>
+        /// Main.
+        /// </summary>
+        public static void Main()
+        {
+          
+            Directory.SetCurrentDirectory(System.AppDomain.CurrentDomain.BaseDirectory);
+            HostFactory.Run(x =>
+                                          {
+                                              x.RunAsLocalSystem();
+
+                                              x.SetDescription(Configuration.ServiceDescription);
+                                              x.SetDisplayName(Configuration.ServiceDisplayName);
+                                              x.SetServiceName(Configuration.ServiceName);
+                                              x.Service(factory =>
+                                                                                                         {
+                                                                                                             QuartzServer server = QuartzServerFactory.CreateServer();
+                                                                                                             server.Initialize();
+                                                                                                             return server;
+                                                                                                         });
+
+                                          });
+
+
+        }
+    }
+}

@@ -1,0 +1,11 @@
+F:\socket\WebApplication1\DAL\obj\Debug\Dll.pdb
+F:\socket\WebApplication1\DAL\bin\Debug\Dll.dll
+F:\socket\WebApplication1\DAL\bin\Debug\Dll.pdb
+F:\socket\WebApplication1\DAL\bin\Debug\Oracle.DataAccess.dll
+F:\socket\WebApplication1\DAL\obj\Debug\Dll.dll
+F:\tool\Quartz.NET-2.6\DAL\bin\Debug\Dll.dll
+F:\tool\Quartz.NET-2.6\DAL\bin\Debug\Dll.pdb
+F:\tool\Quartz.NET-2.6\DAL\obj\Debug\Dll.dll
+F:\tool\Quartz.NET-2.6\DAL\obj\Debug\Dll.pdb
+F:\tool\Quartz.NET-2.6\DAL\bin\Debug\Oracle.DataAccess.dll
+F:\tool\Quartz.NET-2.6\DAL\obj\Debug\DAl.csprojResolveAssemblyReference.cache

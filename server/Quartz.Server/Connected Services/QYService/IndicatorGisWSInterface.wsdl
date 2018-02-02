@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ns1="http://intf.ws.os.generaldata.com.cn/" name="IndicatorGisWSInterface" targetNamespace="http://intf.ws.os.generaldata.com.cn/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xs:schema xmlns:tns="http://intf.ws.os.generaldata.com.cn/" elementFormDefault="unqualified" targetNamespace="http://intf.ws.os.generaldata.com.cn/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:element name="area" type="tns:areaPerformNz" />
+      <xs:element name="biindicator" type="tns:biIndicatorNz" />
+      <xs:element name="category" type="tns:indicatorCategoryNz" />
+      <xs:element name="gisCoordinate" type="tns:gisCoordinate" />
+      <xs:element name="indicator" type="tns:indicatorInfo" />
+      <xs:element name="indicatorQuery" type="tns:reportIndicatorQueryVO" />
+      <xs:element name="indicatorVO" type="tns:indicatorQueryVO" />
+      <xs:element name="queryAreaVO" type="tns:queryAreaVO" />
+      <xs:element name="queryAreaVOResponse" type="tns:queryAreaVOResponse" />
+      <xs:element name="queryBiIndicator" type="tns:queryBiIndicator" />
+      <xs:element name="queryBiIndicatorResponse" type="tns:queryBiIndicatorResponse" />
+      <xs:element name="queryByCategory" type="tns:queryByCategory" />
+      <xs:element name="queryByCategoryResponse" type="tns:queryByCategoryResponse" />
+      <xs:element name="queryCategory" type="tns:queryCategory" />
+      <xs:element name="queryCategoryResponse" type="tns:queryCategoryResponse" />
+      <xs:element name="queryGisIndicator" type="tns:queryGisIndicator" />
+      <xs:element name="queryGisIndicatorResponse" type="tns:queryGisIndicatorResponse" />
+      <xs:element name="queryIndicatorVO" type="tns:queryIndicatorVO" />
+      <xs:element name="queryIndicatorVOResponse" type="tns:queryIndicatorVOResponse" />
+      <xs:element name="queryReportData" type="tns:queryReportData" />
+      <xs:element name="queryReportDataResponse" type="tns:queryReportDataResponse" />
+      <xs:element name="queryReportIndicator" type="tns:queryReportIndicator" />
+      <xs:element name="queryReportIndicatorResponse" type="tns:queryReportIndicatorResponse" />
+      <xs:element name="queryReportType" type="tns:queryReportType" />
+      <xs:element name="queryReportTypeResponse" type="tns:queryReportTypeResponse" />
+      <xs:element name="queryType" type="tns:queryType" />
+      <xs:element name="queryTypeResponse" type="tns:queryTypeResponse" />
+      <xs:element name="queryUnits" type="tns:queryUnits" />
+      <xs:element name="queryUnitsArea" type="tns:queryUnitsArea" />
+      <xs:element name="queryUnitsAreaResponse" type="tns:queryUnitsAreaResponse" />
+      <xs:element name="queryUnitsResponse" type="tns:queryUnitsResponse" />
+      <xs:element name="transferData" type="tns:transferData" />
+      <xs:element name="transferDataResponse" type="tns:transferDataResponse" />
+      <xs:element name="transferDataTest" type="tns:transferDataTest" />
+      <xs:element name="transferDataTestResponse" type="tns:transferDataTestResponse" />
+      <xs:element name="transferQueryUnit" type="tns:transferQueryUnit" />
+      <xs:element name="transferQueryUnitResponse" type="tns:transferQueryUnitResponse" />
+      <xs:element name="updateBiIndicator" type="tns:updateBiIndicator" />
+      <xs:element name="updateBiIndicatorResponse" type="tns:updateBiIndicatorResponse" />
+      <xs:complexType name="queryReportIndicator">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="arg0" type="tns:reportIndicatorQueryVO" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="reportIndicatorQueryVO">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="areaId" type="xs:string" />
+          <xs:element minOccurs="0" name="endDate" type="xs:string" />
+          <xs:element minOccurs="0" name="endMonth" type="xs:int" />
+          <xs:element minOccurs="0" name="endQuarter" type="xs:int" />
+          <xs:element minOccurs="0" name="endYear" type="xs:int" />
+          <xs:element minOccurs="0" name="indicatorIds" type="xs:string" />
+          <xs:element minOccurs="0" name="indicatorNames" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="indicators" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="reportTypeName" type="xs:string" />
+          <xs:element minOccurs="0" name="startDate" type="xs:string" />
+          <xs:element minOccurs="0" name="startMonth" type="xs:int" />
+          <xs:element minOccurs="0" name="startQuarter" type="xs:int" />
+          <xs:element minOccurs="0" name="startYear" type="xs:int" />
+          <xs:element name="timeType" type="xs:int" />
+          <xs:element minOccurs="0" name="unitId" type="xs:string" />
+          <xs:element minOccurs="0" name="unitName" type="xs:string" />
+          <xs:element minOccurs="0" name="unitType" type="xs:string" />
+          <xs:element name="yearTime" type="xs:int" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="queryReportIndicatorResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:indicatorQueryVO" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="indicatorQueryVO">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="areaId" type="xs:string" />
+          <xs:element minOccurs="0" name="indicatorName" type="xs:string" />
+          <xs:element minOccurs="0" name="indicatorUnit" type="xs:string" />
+          <xs:element minOccurs="0" name="indicatorValue" type="xs:string" />
+          <xs:element minOccurs="0" name="reportTime" type="xs:string" />
+          <xs:element minOccurs="0" name="unitName" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="queryType">
+        <xs:sequence />
+      </xs:complexType>
+      <xs:complexType name="queryTypeResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:systemCodedic" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="systemCodedic">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="code" type="xs:string" />
+          <xs:element minOccurs="0" name="codeName" type="xs:string" />
+          <xs:element minOccurs="0" name="editMode" type="xs:string" />
+          <xs:element minOccurs="0" name="enabled" type="xs:string" />
+          <xs:element minOccurs="0" name="remark" type="xs:string" />
+          <xs:element minOccurs="0" name="section" type="xs:string" />
+          <xs:element minOccurs="0" name="sectionName" type="xs:string" />
+          <xs:element minOccurs="0" name="sortNo" type="xs:int" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="queryAreaVO">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="arg0" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="queryAreaVOResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:areaPerformNz" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="areaPerformNz">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="areaCode" type="xs:string" />
+          <xs:element minOccurs="0" name="areaDesc" type="xs:string" />
+          <xs:element minOccurs="0" name="areaName" type="xs:string" />
+          <xs:element minOccurs="0" name="areaSort" type="xs:int" />
+          <xs:element minOccurs="0" name="areaZimuCode" type="xs:string" />
+          <xs:element minOccurs="0" name="id" type="xs:string" />
+          <xs:element minOccurs="0" name="isCoast" type="xs:int" />
+          <xs:element minOccurs="0" name="parentId" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="transferData">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="arg0" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="transferDataResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="queryUnitsArea">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="arg0" type="xs:string" />
+          <xs:element minOccurs="0" name="arg1" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="queryUnitsAreaResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:gisCoordinate" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="gisCoordinate">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="latitude" type="xs:string" />
+          <xs:element minOccurs="0" name="longitude" type="xs:string" />
+          <xs:element minOccurs="0" name="no" type="xs:string" />
+          <xs:element minOccurs="0" name="point" type="xs:string" />
+          <xs:element minOccurs="0" name="unitName" type="xs:string" />
+          <xs:element minOccurs="0" name="warrants" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="updateBiIndicator">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="arg0" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="updateBiIndicatorResponse">
+        <xs:sequence />
+      </xs:complexType>
+      <xs:complexType name="queryGisIndicator">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="arg0" type="xs:string" />
+          <xs:element minOccurs="0" name="arg1" type="xs:string" />
+          <xs:element minOccurs="0" name="arg2" type="xs:string" />
+          <xs:element minOccurs="0" name="arg3" type="xs:string" />
+          <xs:element minOccurs="0" name="arg4" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="queryGisIndicatorResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:gisShowDataVO" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="gisShowDataVO">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="areaName" type="xs:string" />
+          <xs:element minOccurs="0" name="indicatorName" type="xs:string" />
+          <xs:element minOccurs="0" name="indicatorValue" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="queryIndicatorVO">
+        <xs:sequence />
+      </xs:complexType>
+      <xs:complexType name="queryIndicatorVOResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:indicatorInfo" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="indicatorInfo">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="code" type="xs:string" />
+          <xs:element minOccurs="0" name="frequency" type="xs:int" />
+          <xs:element minOccurs="0" name="id" type="xs:int" />
+          <xs:element minOccurs="0" name="indicatorType" type="xs:int" />
+          <xs:element minOccurs="0" name="industryCode" type="xs:string" />
+          <xs:element minOccurs="0" name="name" type="xs:string" />
+          <xs:element minOccurs="0" name="statSystemName" type="xs:string" />
+          <xs:element minOccurs="0" name="unit" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="queryCategory">
+        <xs:sequence />
+      </xs:complexType>
+      <xs:complexType name="queryCategoryResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:indicatorCategoryNz" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="indicatorCategoryNz">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="createTime" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="id" type="xs:int" />
+          <xs:element minOccurs="0" name="lastUpdate" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="name" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="queryByCategory">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="arg0" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="queryByCategoryResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:biIndicatorNz" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="biIndicatorNz">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="indicatorId" type="xs:int" />
+          <xs:element minOccurs="0" name="indicatorName" type="xs:string" />
+          <xs:element minOccurs="0" name="indicatorShow" type="xs:boolean" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="transferQueryUnit">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="arg0" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="transferQueryUnitResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="transferDataTest">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="arg0" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="transferDataTestResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="queryUnits">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="arg0" type="xs:string" />
+          <xs:element minOccurs="0" name="arg1" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="queryUnitsResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="queryBiIndicator">
+        <xs:sequence />
+      </xs:complexType>
+      <xs:complexType name="queryBiIndicatorResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:biIndicatorNz" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="queryReportData">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="arg0" type="xs:string" />
+          <xs:element minOccurs="0" name="arg1" type="xs:string" />
+          <xs:element minOccurs="0" name="arg2" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="queryReportDataResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="queryReportType">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="arg0" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="queryReportTypeResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="queryAreaVOResponse">
+    <wsdl:part name="parameters" element="ns1:queryAreaVOResponse" />
+  </wsdl:message>
+  <wsdl:message name="transferDataResponse">
+    <wsdl:part name="parameters" element="ns1:transferDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="transferDataTest">
+    <wsdl:part name="parameters" element="ns1:transferDataTest" />
+  </wsdl:message>
+  <wsdl:message name="queryTypeResponse">
+    <wsdl:part name="parameters" element="ns1:queryTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="queryReportIndicatorResponse">
+    <wsdl:part name="parameters" element="ns1:queryReportIndicatorResponse" />
+  </wsdl:message>
+  <wsdl:message name="queryAreaVO">
+    <wsdl:part name="parameters" element="ns1:queryAreaVO" />
+  </wsdl:message>
+  <wsdl:message name="transferDataTestResponse">
+    <wsdl:part name="parameters" element="ns1:transferDataTestResponse" />
+  </wsdl:message>
+  <wsdl:message name="transferQueryUnit">
+    <wsdl:part name="parameters" element="ns1:transferQueryUnit" />
+  </wsdl:message>
+  <wsdl:message name="queryIndicatorVOResponse">
+    <wsdl:part name="parameters" element="ns1:queryIndicatorVOResponse" />
+  </wsdl:message>
+  <wsdl:message name="updateBiIndicatorResponse">
+    <wsdl:part name="parameters" element="ns1:updateBiIndicatorResponse" />
+  </wsdl:message>
+  <wsdl:message name="queryReportTypeResponse">
+    <wsdl:part name="parameters" element="ns1:queryReportTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="queryGisIndicatorResponse">
+    <wsdl:part name="parameters" element="ns1:queryGisIndicatorResponse" />
+  </wsdl:message>
+  <wsdl:message name="queryUnitsArea">
+    <wsdl:part name="parameters" element="ns1:queryUnitsArea" />
+  </wsdl:message>
+  <wsdl:message name="queryUnitsResponse">
+    <wsdl:part name="parameters" element="ns1:queryUnitsResponse" />
+  </wsdl:message>
+  <wsdl:message name="queryUnits">
+    <wsdl:part name="parameters" element="ns1:queryUnits" />
+  </wsdl:message>
+  <wsdl:message name="transferData">
+    <wsdl:part name="parameters" element="ns1:transferData" />
+  </wsdl:message>
+  <wsdl:message name="queryGisIndicator">
+    <wsdl:part name="parameters" element="ns1:queryGisIndicator" />
+  </wsdl:message>
+  <wsdl:message name="queryBiIndicator">
+    <wsdl:part name="parameters" element="ns1:queryBiIndicator" />
+  </wsdl:message>
+  <wsdl:message name="queryReportData">
+    <wsdl:part name="parameters" element="ns1:queryReportData" />
+  </wsdl:message>
+  <wsdl:message name="queryReportDataResponse">
+    <wsdl:part name="parameters" element="ns1:queryReportDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="queryUnitsAreaResponse">
+    <wsdl:part name="parameters" element="ns1:queryUnitsAreaResponse" />
+  </wsdl:message>
+  <wsdl:message name="queryType">
+    <wsdl:part name="parameters" element="ns1:queryType" />
+  </wsdl:message>
+  <wsdl:message name="queryReportIndicator">
+    <wsdl:part name="parameters" element="ns1:queryReportIndicator" />
+  </wsdl:message>
+  <wsdl:message name="queryIndicatorVO">
+    <wsdl:part name="parameters" element="ns1:queryIndicatorVO" />
+  </wsdl:message>
+  <wsdl:message name="queryBiIndicatorResponse">
+    <wsdl:part name="parameters" element="ns1:queryBiIndicatorResponse" />
+  </wsdl:message>
+  <wsdl:message name="transferQueryUnitResponse">
+    <wsdl:part name="parameters" element="ns1:transferQueryUnitResponse" />
+  </wsdl:message>
+  <wsdl:message name="queryByCategory">
+    <wsdl:part name="parameters" element="ns1:queryByCategory" />
+  </wsdl:message>
+  <wsdl:message name="updateBiIndicator">
+    <wsdl:part name="parameters" element="ns1:updateBiIndicator" />
+  </wsdl:message>
+  <wsdl:message name="queryCategoryResponse">
+    <wsdl:part name="parameters" element="ns1:queryCategoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="queryReportType">
+    <wsdl:part name="parameters" element="ns1:queryReportType" />
+  </wsdl:message>
+  <wsdl:message name="queryByCategoryResponse">
+    <wsdl:part name="parameters" element="ns1:queryByCategoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="queryCategory">
+    <wsdl:part name="parameters" element="ns1:queryCategory" />
+  </wsdl:message>
+  <wsdl:portType name="IndicatorGisWSInterface">
+    <wsdl:operation name="queryReportIndicator">
+      <wsdl:input name="queryReportIndicator" message="ns1:queryReportIndicator" />
+      <wsdl:output name="queryReportIndicatorResponse" message="ns1:queryReportIndicatorResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="queryType">
+      <wsdl:input name="queryType" message="ns1:queryType" />
+      <wsdl:output name="queryTypeResponse" message="ns1:queryTypeResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="queryAreaVO">
+      <wsdl:input name="queryAreaVO" message="ns1:queryAreaVO" />
+      <wsdl:output name="queryAreaVOResponse" message="ns1:queryAreaVOResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="transferData">
+      <wsdl:input name="transferData" message="ns1:transferData" />
+      <wsdl:output name="transferDataResponse" message="ns1:transferDataResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="queryUnitsArea">
+      <wsdl:input name="queryUnitsArea" message="ns1:queryUnitsArea" />
+      <wsdl:output name="queryUnitsAreaResponse" message="ns1:queryUnitsAreaResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="updateBiIndicator">
+      <wsdl:input name="updateBiIndicator" message="ns1:updateBiIndicator" />
+      <wsdl:output name="updateBiIndicatorResponse" message="ns1:updateBiIndicatorResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="queryGisIndicator">
+      <wsdl:input name="queryGisIndicator" message="ns1:queryGisIndicator" />
+      <wsdl:output name="queryGisIndicatorResponse" message="ns1:queryGisIndicatorResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="queryIndicatorVO">
+      <wsdl:input name="queryIndicatorVO" message="ns1:queryIndicatorVO" />
+      <wsdl:output name="queryIndicatorVOResponse" message="ns1:queryIndicatorVOResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="queryCategory">
+      <wsdl:input name="queryCategory" message="ns1:queryCategory" />
+      <wsdl:output name="queryCategoryResponse" message="ns1:queryCategoryResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="queryByCategory">
+      <wsdl:input name="queryByCategory" message="ns1:queryByCategory" />
+      <wsdl:output name="queryByCategoryResponse" message="ns1:queryByCategoryResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="transferQueryUnit">
+      <wsdl:input name="transferQueryUnit" message="ns1:transferQueryUnit" />
+      <wsdl:output name="transferQueryUnitResponse" message="ns1:transferQueryUnitResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="transferDataTest">
+      <wsdl:input name="transferDataTest" message="ns1:transferDataTest" />
+      <wsdl:output name="transferDataTestResponse" message="ns1:transferDataTestResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="queryUnits">
+      <wsdl:input name="queryUnits" message="ns1:queryUnits" />
+      <wsdl:output name="queryUnitsResponse" message="ns1:queryUnitsResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="queryBiIndicator">
+      <wsdl:input name="queryBiIndicator" message="ns1:queryBiIndicator" />
+      <wsdl:output name="queryBiIndicatorResponse" message="ns1:queryBiIndicatorResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="queryReportData">
+      <wsdl:input name="queryReportData" message="ns1:queryReportData" />
+      <wsdl:output name="queryReportDataResponse" message="ns1:queryReportDataResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="queryReportType">
+      <wsdl:input name="queryReportType" message="ns1:queryReportType" />
+      <wsdl:output name="queryReportTypeResponse" message="ns1:queryReportTypeResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

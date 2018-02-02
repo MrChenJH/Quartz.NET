@@ -1,0 +1,35 @@
+5529
+   在 Quartz.Server.SampleJob.PostResponse(String url, Dictionary`2 input, Encoding endoding, Byte[] data1, String name) 位置 F:\winform\Quartz.NET-2.6\server\Quartz.Server\SampleJob.cs:行号 441
+   在 Quartz.Server.SampleJob.Poc(String& str, Int32 startloc, Int32 length, String idleaf) 位置 F:\winform\Quartz.NET-2.6\server\Quartz.Server\SampleJob.cs:行号 226
+   在 Quartz.Server.SampleJob.FindTable(String& str, List`1 startSignLoc, List`1 endSignLoc, String idleaf) 位置 F:\winform\Quartz.NET-2.6\server\Quartz.Server\SampleJob.cs:行号 266
+   在 Quartz.Server.SampleJob.FindTable(String& str, List`1 startSignLoc, List`1 endSignLoc, String idleaf) 位置 F:\winform\Quartz.NET-2.6\server\Quartz.Server\SampleJob.cs:行号 274
+   在 Quartz.Server.SampleJob.ConvertTableToA(String str, String idleaf) 位置 F:\winform\Quartz.NET-2.6\server\Quartz.Server\SampleJob.cs:行号 322
+基础连接已经关闭: 服务器关闭了本应保持活动状态的连接。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Quartz.Server.SqlHeplerTo.ExcuteSQL(String strSQL, SqlParameter[] paras, CommandType cmdType) 位置 F:\winform\Quartz.NET-2.6\server\Quartz.Server\SqlHepler.cs:行号 545
+   在 Quartz.Server.SqlHeplerTo.ExcuteSQL(String strSQL, SqlParameter[] paras) 位置 F:\winform\Quartz.NET-2.6\server\Quartz.Server\SqlHepler.cs:行号 523
+   在 Quartz.Server.SampleJob.InsertScript() 位置 F:\winform\Quartz.NET-2.6\server\Quartz.Server\SampleJob.cs:行号 136
+
+将截断字符串或二进制数据。
+语句已终止。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Quartz.Server.SqlHeplerTo.ExcuteSQL(String strSQL, SqlParameter[] paras, CommandType cmdType) 位置 F:\winform\Quartz.NET-2.6\server\Quartz.Server\SqlHepler.cs:行号 545
+   在 Quartz.Server.SqlHeplerTo.ExcuteSQL(String strSQL, SqlParameter[] paras) 位置 F:\winform\Quartz.NET-2.6\server\Quartz.Server\SqlHepler.cs:行号 523
+   在 Quartz.Server.SampleJob.InsertScript() 位置 F:\winform\Quartz.NET-2.6\server\Quartz.Server\SampleJob.cs:行号 136
+
+将截断字符串或二进制数据。
+语句已终止。

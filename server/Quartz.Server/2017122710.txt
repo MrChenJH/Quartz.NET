@@ -1,0 +1,305 @@
+   在 System.String.Substring(Int32 startIndex, Int32 length)
+   在 Quartz.Server.WebSnapshotsHelper.Filter(String str) 位置 F:\winform\Quartz.NET-2.6\server\Quartz.Server\WebSnapshotsHelper.cs:行号 27
+   在 Quartz.Server.WebSnapshotsHelper.StartBrowser(String source, String title) 位置 F:\winform\Quartz.NET-2.6\server\Quartz.Server\WebSnapshotsHelper.cs:行号 48
+   在 Quartz.Server.SampleJob.Poc(String& str, Int32 startloc, Int32 length, String idleaf) 位置 F:\winform\Quartz.NET-2.6\server\Quartz.Server\SampleJob.cs:行号 201
+   在 Quartz.Server.SampleJob.FindTable(String& str, List`1 startSignLoc, List`1 endSignLoc, String idleaf) 位置 F:\winform\Quartz.NET-2.6\server\Quartz.Server\SampleJob.cs:行号 254
+   在 Quartz.Server.SampleJob.ConvertTableToA(String str, String idleaf) 位置 F:\winform\Quartz.NET-2.6\server\Quartz.Server\SampleJob.cs:行号 295
+长度不能小于 0。
+参数名: length
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Quartz.Server.SqlHeplerTo.ExcuteSQL(String strSQL, SqlParameter[] paras, CommandType cmdType) 位置 F:\winform\Quartz.NET-2.6\server\Quartz.Server\SqlHepler.cs:行号 545
+   在 Quartz.Server.SqlHeplerTo.ExcuteSQL(String strSQL, SqlParameter[] paras) 位置 F:\winform\Quartz.NET-2.6\server\Quartz.Server\SqlHepler.cs:行号 523
+   在 Quartz.Server.SqlHeplerTo.ExcuteSQL(String strSQL) 位置 F:\winform\Quartz.NET-2.6\server\Quartz.Server\SqlHepler.cs:行号 518
+   在 Quartz.Server.SampleJob.InsertScript() 位置 F:\winform\Quartz.NET-2.6\server\Quartz.Server\SampleJob.cs:行号 128
+
+<DIV align=center>
+<TABLE 
+style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; MARGIN: auto auto auto 5.2pt; WIDTH: 491.8pt; BORDER-COLLAPSE: collapse; BORDER-TOP: medium none; BORDER-RIGHT: medium none; mso-border-alt: solid windowtext .5pt; mso-yfti-tbllook: 480; mso-padding-alt: 0cm 5.4pt 0cm 5.4pt; mso-border-insideh: .5pt solid windowtext; mso-border-insidev: .5pt solid windowtext" 
+class=MsoTableGrid border=1 cellSpacing=0 cellPadding=0 width=656>
+  <TBODY>
+  <TR style="HEIGHT: 22.45pt; mso-yfti-irow: 0; mso-yfti-firstrow: yes">
+    <TD 
+    style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 129pt; PADDING-RIGHT: 5.4pt; HEIGHT: 22.45pt; BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm; mso-border-alt: solid windowtext .5pt" 
+    width=172>
+      <P style="LINE-HEIGHT: 200%; MARGIN: 0cm 0cm 0pt" class=MsoNormal 
+      align=center><SPAN 
+      style="LINE-HEIGHT: 200%; FONT-FAMILY: 宋体; FONT-SIZE: 10pt">日<SPAN 
+      lang=EN-US><SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      </SPAN></SPAN>期<SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #ebe9ed; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 362.8pt; PADDING-RIGHT: 5.4pt; HEIGHT: 22.45pt; BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt" 
+    width=484>
+      <P style="LINE-HEIGHT: 200%; MARGIN: 0cm 0cm 0pt" class=MsoNormal 
+      align=center><SPAN 
+      style="LINE-HEIGHT: 200%; FONT-FAMILY: 宋体; FONT-SIZE: 10pt">工<SPAN 
+      lang=EN-US><SPAN style="mso-spacerun: yes">&nbsp; </SPAN></SPAN>作<SPAN 
+      lang=EN-US><SPAN style="mso-spacerun: yes">&nbsp; </SPAN></SPAN>安<SPAN 
+      lang=EN-US><SPAN style="mso-spacerun: yes">&nbsp; </SPAN></SPAN>排<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD></TR>
+  <TR style="HEIGHT: 22.6pt; mso-yfti-irow: 1">
+    <TD 
+    style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 129pt; PADDING-RIGHT: 5.4pt; HEIGHT: 22.6pt; BORDER-TOP: #ebe9ed; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt" 
+    width=172>
+      <P style="LINE-HEIGHT: 200%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+      style="LINE-HEIGHT: 200%; FONT-FAMILY: 宋体; FONT-SIZE: 10pt" 
+      lang=EN-US>12</SPAN><SPAN 
+      style="LINE-HEIGHT: 200%; FONT-FAMILY: 宋体; FONT-SIZE: 10pt">月上中旬<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #ebe9ed; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 362.8pt; PADDING-RIGHT: 5.4pt; HEIGHT: 22.6pt; BORDER-TOP: #ebe9ed; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt" 
+    width=484>
+      <P style="LINE-HEIGHT: 200%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+      style="LINE-HEIGHT: 200%; FONT-FAMILY: 宋体; FONT-SIZE: 10pt">招生院校制定招生简章、编制专业目录<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD></TR>
+  <TR style="HEIGHT: 54.15pt; mso-yfti-irow: 2">
+    <TD 
+    style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 129pt; PADDING-RIGHT: 5.4pt; HEIGHT: 54.15pt; BORDER-TOP: #ebe9ed; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt" 
+    width=172>
+      <P style="LINE-HEIGHT: 200%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+      style="LINE-HEIGHT: 200%; FONT-FAMILY: 宋体; FONT-SIZE: 10pt" 
+      lang=EN-US>12</SPAN><SPAN 
+      style="LINE-HEIGHT: 200%; FONT-FAMILY: 宋体; FONT-SIZE: 10pt">月中旬<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #ebe9ed; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 362.8pt; PADDING-RIGHT: 5.4pt; HEIGHT: 54.15pt; BORDER-TOP: #ebe9ed; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt" 
+    width=484>
+      <P style="LINE-HEIGHT: 200%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+      style="LINE-HEIGHT: 200%; FONT-FAMILY: 宋体; FONT-SIZE: 10pt">在“上海招考热线”网站公布报名、确认细则及相关成人高校专升本招生专业目录，同时招生院校在本校招生网站公布招生简章<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD></TR>
+  <TR style="HEIGHT: 53.45pt; mso-yfti-irow: 3">
+    <TD 
+    style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 129pt; PADDING-RIGHT: 5.4pt; HEIGHT: 53.45pt; BORDER-TOP: #ebe9ed; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt" 
+    width=172>
+      <P style="LINE-HEIGHT: 200%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+      style="LINE-HEIGHT: 200%; FONT-FAMILY: 宋体; FONT-SIZE: 10pt" 
+      lang=EN-US>2013</SPAN><SPAN 
+      style="LINE-HEIGHT: 200%; FONT-FAMILY: 宋体; FONT-SIZE: 10pt">年<SPAN 
+      lang=EN-US>1</SPAN>月<SPAN lang=EN-US>3</SPAN>日<SPAN 
+      lang=EN-US>12:00<o:p></o:p></SPAN></SPAN></P>
+      <P style="LINE-HEIGHT: 200%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+      style="LINE-HEIGHT: 200%; FONT-FAMILY: 宋体; FONT-SIZE: 10pt">—<SPAN 
+      lang=EN-US>1</SPAN>月<SPAN lang=EN-US>4</SPAN>日<SPAN 
+      lang=EN-US>12:00<o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #ebe9ed; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 362.8pt; PADDING-RIGHT: 5.4pt; HEIGHT: 53.45pt; BORDER-TOP: #ebe9ed; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt" 
+    width=484>
+      <P style="LINE-HEIGHT: 200%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+      style="LINE-HEIGHT: 200%; FONT-FAMILY: 宋体; FONT-SIZE: 10pt">符合条件的考生通过“上海招考热线”网站进行报名，在网上输入基本信息、填报志愿、签署考生诚信考试承诺书<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD></TR>
+  <TR style="HEIGHT: 23.7pt; mso-yfti-irow: 4">
+    <TD 
+    style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 129pt; PADDING-RIGHT: 5.4pt; HEIGHT: 23.7pt; BORDER-TOP: #ebe9ed; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt" 
+    width=172>
+      <P style="LINE-HEIGHT: 200%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+      style="LINE-HEIGHT: 200%; FONT-FAMILY: 宋体; FONT-SIZE: 10pt" 
+      lang=EN-US>1</SPAN><SPAN 
+      style="LINE-HEIGHT: 200%; FONT-FAMILY: 宋体; FONT-SIZE: 10pt">月<SPAN 
+      lang=EN-US>4</SPAN>日<SPAN lang=EN-US>16:00<o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #ebe9ed; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 362.8pt; PADDING-RIGHT: 5.4pt; HEIGHT: 23.7pt; BORDER-TOP: #ebe9ed; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt" 
+    width=484>
+      <P style="LINE-HEIGHT: 200%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+      style="LINE-HEIGHT: 200%; FONT-FAMILY: 宋体; FONT-SIZE: 10pt">招生院校下载考生信息<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD></TR>
+  <TR style="HEIGHT: 55.55pt; mso-yfti-irow: 5">
+    <TD 
+    style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 129pt; PADDING-RIGHT: 5.4pt; HEIGHT: 55.55pt; BORDER-TOP: #ebe9ed; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt" 
+    width=172>
+      <P style="LINE-HEIGHT: 200%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+      style="LINE-HEIGHT: 200%; FONT-FAMILY: 宋体; FONT-SIZE: 10pt" 
+      lang=EN-US>1</SPAN><SPAN 
+      style="LINE-HEIGHT: 200%; FONT-FAMILY: 宋体; FONT-SIZE: 10pt">月<SPAN 
+      lang=EN-US>5</SPAN>日<SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+      <P style="LINE-HEIGHT: 200%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+      style="LINE-HEIGHT: 200%; FONT-FAMILY: 宋体; FONT-SIZE: 10pt" 
+      lang=EN-US>(9:00</SPAN><SPAN 
+      style="LINE-HEIGHT: 200%; FONT-FAMILY: 宋体; FONT-SIZE: 10pt">－<SPAN 
+      lang=EN-US>16:00)<o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #ebe9ed; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 362.8pt; PADDING-RIGHT: 5.4pt; HEIGHT: 55.55pt; BORDER-TOP: #ebe9ed; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt" 
+    width=484>
+      <P style="LINE-HEIGHT: 200%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+      style="LINE-HEIGHT: 200%; FONT-FAMILY: 宋体; FONT-SIZE: 10pt">已报名的考生到报考的第一志愿院校进行现场确认。考生校对网上输入的基本信息、拍摄数码照片、缴费，招生院校核验学历证书及相关的证书及证明<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD></TR>
+  <TR style="HEIGHT: 38.7pt; mso-yfti-irow: 6">
+    <TD 
+    style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 129pt; PADDING-RIGHT: 5.4pt; HEIGHT: 38.7pt; BORDER-TOP: #ebe9ed; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt" 
+    width=172>
+      <P style="LINE-HEIGHT: 200%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+      style="LINE-HEIGHT: 200%; FONT-FAMILY: 宋体; FONT-SIZE: 10pt" 
+      lang=EN-US>1</SPAN><SPAN 
+      style="LINE-HEIGHT: 200%; FONT-FAMILY: 宋体; FONT-SIZE: 10pt">月<SPAN 
+      lang=EN-US>7</SPAN>日<SPAN lang=EN-US>15:00</SPAN>前<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #ebe9ed; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 362.8pt; PADDING-RIGHT: 5.4pt; HEIGHT: 38.7pt; BORDER-TOP: #ebe9ed; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt" 
+    width=484>
+      <P style="LINE-HEIGHT: 200%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+      style="LINE-HEIGHT: 200%; FONT-FAMILY: 宋体; FONT-SIZE: 10pt">招生院校报现场确认情况统计表（含照片库）至上海市教育考试院高招办<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD></TR>
+  <TR style="HEIGHT: 38.7pt; mso-yfti-irow: 7">
+    <TD 
+    style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 129pt; PADDING-RIGHT: 5.4pt; HEIGHT: 38.7pt; BORDER-TOP: #ebe9ed; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt" 
+    width=172>
+      <P style="LINE-HEIGHT: 200%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+      style="LINE-HEIGHT: 200%; FONT-FAMILY: 宋体; FONT-SIZE: 10pt" 
+      lang=EN-US>1</SPAN><SPAN 
+      style="LINE-HEIGHT: 200%; FONT-FAMILY: 宋体; FONT-SIZE: 10pt">月<SPAN 
+      lang=EN-US>8</SPAN>日－<SPAN lang=EN-US>9</SPAN>日<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #ebe9ed; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 362.8pt; PADDING-RIGHT: 5.4pt; HEIGHT: 38.7pt; BORDER-TOP: #ebe9ed; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt" 
+    width=484>
+      <P style="LINE-HEIGHT: 200%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+      style="LINE-HEIGHT: 200%; FONT-FAMILY: 宋体; FONT-SIZE: 10pt">报名人数超过招生计划的院校进行测试和录取，其它院校进行录取<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD></TR>
+  <TR style="HEIGHT: 30.05pt; mso-yfti-irow: 8">
+    <TD 
+    style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 129pt; PADDING-RIGHT: 5.4pt; HEIGHT: 30.05pt; BORDER-TOP: #ebe9ed; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt" 
+    width=172>
+      <P style="LINE-HEIGHT: 200%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+      style="LINE-HEIGHT: 200%; FONT-FAMILY: 宋体; FONT-SIZE: 10pt" 
+      lang=EN-US>1</SPAN><SPAN 
+      style="LINE-HEIGHT: 200%; FONT-FAMILY: 宋体; FONT-SIZE: 10pt">月<SPAN 
+      lang=EN-US>10</SPAN>日<SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+      <P style="LINE-HEIGHT: 200%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+      style="LINE-HEIGHT: 200%; FONT-FAMILY: 宋体; FONT-SIZE: 10pt" 
+      lang=EN-US>9:00-16:00<o:p></o:p></SPAN></P></TD>
+    <TD 
+    style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #ebe9ed; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 362.8pt; PADDING-RIGHT: 5.4pt; HEIGHT: 30.05pt; BORDER-TOP: #ebe9ed; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt" 
+    width=484>
+      <P style="LINE-HEIGHT: 200%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+      style="LINE-HEIGHT: 200%; FONT-FAMILY: 宋体; FONT-SIZE: 10pt">未录取考生通过“上海招考热线”填报征求志愿<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD></TR>
+  <TR style="HEIGHT: 21.25pt; mso-yfti-irow: 9">
+    <TD 
+    style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 129pt; PADDING-RIGHT: 5.4pt; HEIGHT: 21.25pt; BORDER-TOP: #ebe9ed; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt" 
+    width=172>
+      <P style="LINE-HEIGHT: 200%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+      style="LINE-HEIGHT: 200%; FONT-FAMILY: 宋体; FONT-SIZE: 10pt" 
+      lang=EN-US>1</SPAN><SPAN 
+      style="LINE-HEIGHT: 200%; FONT-FAMILY: 宋体; FONT-SIZE: 10pt">月<SPAN 
+      lang=EN-US>11</SPAN>日<SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #ebe9ed; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 362.8pt; PADDING-RIGHT: 5.4pt; HEIGHT: 21.25pt; BORDER-TOP: #ebe9ed; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt" 
+    width=484>
+      <P style="LINE-HEIGHT: 200%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+      style="LINE-HEIGHT: 200%; FONT-FAMILY: 宋体; FONT-SIZE: 10pt">征求志愿录取<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD></TR>
+  <TR style="HEIGHT: 34.5pt; mso-yfti-irow: 10; mso-yfti-lastrow: yes">
+    <TD 
+    style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 129pt; PADDING-RIGHT: 5.4pt; HEIGHT: 34.5pt; BORDER-TOP: #ebe9ed; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt" 
+    width=172>
+      <P style="LINE-HEIGHT: 200%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+      style="LINE-HEIGHT: 200%; FONT-FAMILY: 宋体; FONT-SIZE: 10pt" 
+      lang=EN-US>1</SPAN><SPAN 
+      style="LINE-HEIGHT: 200%; FONT-FAMILY: 宋体; FONT-SIZE: 10pt">月<SPAN 
+      lang=EN-US>12</SPAN>日－<SPAN lang=EN-US>18</SPAN>日<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #ebe9ed; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 362.8pt; PADDING-RIGHT: 5.4pt; HEIGHT: 34.5pt; BORDER-TOP: #ebe9ed; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt" 
+    width=484>
+      <P style="LINE-HEIGHT: 200%; MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+      style="LINE-HEIGHT: 200%; FONT-FAMILY: 宋体; FONT-SIZE: 10pt">在“上海招考热线”和招生院校网站公示录取考生名单，公示期满，合格考生免试入学，招生工作结束<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD></TR></TBODY></TABLE></DIV>
+'下基层' 附近有语法错误。
+   在 System.String.Substring(Int32 startIndex, Int32 length)
+   在 Quartz.Server.WebSnapshotsHelper.Filter(String str) 位置 F:\winform\Quartz.NET-2.6\server\Quartz.Server\WebSnapshotsHelper.cs:行号 27
+   在 Quartz.Server.WebSnapshotsHelper.StartBrowser(String source, String title) 位置 F:\winform\Quartz.NET-2.6\server\Quartz.Server\WebSnapshotsHelper.cs:行号 48
+   在 Quartz.Server.SampleJob.Poc(String& str, Int32 startloc, Int32 length, String idleaf) 位置 F:\winform\Quartz.NET-2.6\server\Quartz.Server\SampleJob.cs:行号 201
+   在 Quartz.Server.SampleJob.FindTable(String& str, List`1 startSignLoc, List`1 endSignLoc, String idleaf) 位置 F:\winform\Quartz.NET-2.6\server\Quartz.Server\SampleJob.cs:行号 254
+   在 Quartz.Server.SampleJob.ConvertTableToA(String str, String idleaf) 位置 F:\winform\Quartz.NET-2.6\server\Quartz.Server\SampleJob.cs:行号 295
+长度不能小于 0。
+参数名: length
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Quartz.Server.SqlHeplerTo.ExcuteSQL(String strSQL, SqlParameter[] paras, CommandType cmdType) 位置 F:\winform\Quartz.NET-2.6\server\Quartz.Server\SqlHepler.cs:行号 545
+   在 Quartz.Server.SqlHeplerTo.ExcuteSQL(String strSQL, SqlParameter[] paras) 位置 F:\winform\Quartz.NET-2.6\server\Quartz.Server\SqlHepler.cs:行号 523
+   在 Quartz.Server.SqlHeplerTo.ExcuteSQL(String strSQL) 位置 F:\winform\Quartz.NET-2.6\server\Quartz.Server\SqlHepler.cs:行号 518
+   在 Quartz.Server.SampleJob.InsertScript() 位置 F:\winform\Quartz.NET-2.6\server\Quartz.Server\SampleJob.cs:行号 128
+
+将截断字符串或二进制数据。
+语句已终止。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Quartz.Server.SqlHeplerTo.ExcuteSQL(String strSQL, SqlParameter[] paras, CommandType cmdType) 位置 F:\winform\Quartz.NET-2.6\server\Quartz.Server\SqlHepler.cs:行号 545
+   在 Quartz.Server.SqlHeplerTo.ExcuteSQL(String strSQL, SqlParameter[] paras) 位置 F:\winform\Quartz.NET-2.6\server\Quartz.Server\SqlHepler.cs:行号 523
+   在 Quartz.Server.SqlHeplerTo.ExcuteSQL(String strSQL) 位置 F:\winform\Quartz.NET-2.6\server\Quartz.Server\SqlHepler.cs:行号 518
+   在 Quartz.Server.SampleJob.InsertScript() 位置 F:\winform\Quartz.NET-2.6\server\Quartz.Server\SampleJob.cs:行号 128
+
+将截断字符串或二进制数据。
+语句已终止。
+Job sampleGroup.sampleJob threw an unhandled Exception: 
+System.Data.SqlClient.SqlException (0x80131904): 执行超时已过期。完成操作之前已超时或服务器未响应。  ---> System.ComponentModel.Win32Exception (0x80004005): 等待的操作过时。
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   在 System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   在 System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   在 System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   在 System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Quartz.Server.SqlHeplerTo.ExcuteSQL(String strSQL, SqlParameter[] paras, CommandType cmdType) 位置 F:\winform\Quartz.NET-2.6\server\Quartz.Server\SqlHepler.cs:行号 545
+   在 Quartz.Server.SqlHeplerTo.ExcuteProc(String ProcName) 位置 F:\winform\Quartz.NET-2.6\server\Quartz.Server\SqlHepler.cs:行号 508
+   在 Quartz.Server.SampleJob.Execute(IJobExecutionContext context) 位置 F:\winform\Quartz.NET-2.6\server\Quartz.Server\SampleJob.cs:行号 187
+   在 Quartz.Core.JobRunShell.Run() 位置 F:\winform\Quartz.NET-2.6\src\Quartz\Core\JobRunShell.cs:行号 186
+ClientConnectionId:b33e07a5-4cdb-4aaa-9cea-93e7d7540176
+Error Number:-2,State:0,Class:11
+Job sampleGroup.sampleJob threw an exception.
+Quartz.SchedulerException: Job threw an unhandled exception. ---> System.Data.SqlClient.SqlException: 执行超时已过期。完成操作之前已超时或服务器未响应。  ---> System.ComponentModel.Win32Exception: 等待的操作过时。
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   在 System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   在 System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   在 System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   在 System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Quartz.Server.SqlHeplerTo.ExcuteSQL(String strSQL, SqlParameter[] paras, CommandType cmdType) 位置 F:\winform\Quartz.NET-2.6\server\Quartz.Server\SqlHepler.cs:行号 545
+   在 Quartz.Server.SqlHeplerTo.ExcuteProc(String ProcName) 位置 F:\winform\Quartz.NET-2.6\server\Quartz.Server\SqlHepler.cs:行号 508
+   在 Quartz.Server.SampleJob.Execute(IJobExecutionContext context) 位置 F:\winform\Quartz.NET-2.6\server\Quartz.Server\SampleJob.cs:行号 187
+   在 Quartz.Core.JobRunShell.Run() 位置 F:\winform\Quartz.NET-2.6\src\Quartz\Core\JobRunShell.cs:行号 186
+   --- 内部异常堆栈跟踪的结尾 --- [See nested exception: System.Data.SqlClient.SqlException (0x80131904): 执行超时已过期。完成操作之前已超时或服务器未响应。  ---> System.ComponentModel.Win32Exception (0x80004005): 等待的操作过时。
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   在 System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   在 System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   在 System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   在 System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Quartz.Server.SqlHeplerTo.ExcuteSQL(String strSQL, SqlParameter[] paras, CommandType cmdType) 位置 F:\winform\Quartz.NET-2.6\server\Quartz.Server\SqlHepler.cs:行号 545
+   在 Quartz.Server.SqlHeplerTo.ExcuteProc(String ProcName) 位置 F:\winform\Quartz.NET-2.6\server\Quartz.Server\SqlHepler.cs:行号 508
+   在 Quartz.Server.SampleJob.Execute(IJobExecutionContext context) 位置 F:\winform\Quartz.NET-2.6\server\Quartz.Server\SampleJob.cs:行号 187
+   在 Quartz.Core.JobRunShell.Run() 位置 F:\winform\Quartz.NET-2.6\src\Quartz\Core\JobRunShell.cs:行号 186
+ClientConnectionId:b33e07a5-4cdb-4aaa-9cea-93e7d7540176
+Error Number:-2,State:0,Class:11]

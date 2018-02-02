@@ -1,0 +1,163 @@
+Quartz.NET properties loaded from configuration file 'F:\winform\Quartz.NET-2.6\build\4.0\Debug\Quartz.Server\quartz.config'
+Using default implementation for object serializer
+Using default implementation for ThreadExecutor
+Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+Quartz Scheduler v.2.6.0.0 created.
+Registering Quartz Job Initialization Plug-in.
+RAMJobStore initialized.
+Remoting is allowing remote calls
+Registering remoting channel of type 'System.Runtime.Remoting.Channels.Tcp.TcpChannel' to port (555) with name (httpQuartz)
+Remoting channel registered successfully
+Successfully marshalled remotable scheduler under name 'QuartzScheduler'
+Scheduler meta-data: Quartz Scheduler (v2.6.0.0) 'ServerScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - access via remote invocation.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+Quartz scheduler 'ServerScheduler' initialized
+Quartz scheduler version: 2.6.0.0
+Parsing XML file: F:\winform\Quartz.NET-2.6\build\4.0\Debug\Quartz.Server\quartz_jobs.xml with systemId: ~/quartz_jobs.xml
+Adding 1 jobs, 1 triggers.
+Adding job: sampleGroup.sampleJob
+Scheduler ServerScheduler_$_NON_CLUSTERED started.
+Scheduler started successfully
+开始
+6659
+   在 Quartz.Server.SampleJob.PostValue(String Url, String value) 位置 F:\winform\Quartz.NET-2.6\server\Quartz.Server\SampleJob.cs:行号 380
+   在 Quartz.Server.SampleJob.Poc(String& str, Int32 startloc, Int32 length, String idleaf) 位置 F:\winform\Quartz.NET-2.6\server\Quartz.Server\SampleJob.cs:行号 221
+   在 Quartz.Server.SampleJob.FindTable(String& str, List`1 startSignLoc, List`1 endSignLoc, String idleaf) 位置 F:\winform\Quartz.NET-2.6\server\Quartz.Server\SampleJob.cs:行号 271
+   在 Quartz.Server.SampleJob.ConvertTableToA(String str, String idleaf) 位置 F:\winform\Quartz.NET-2.6\server\Quartz.Server\SampleJob.cs:行号 327
+远程服务器返回错误: (500) 内部服务器错误。
+结束
+Quartz.NET properties loaded from configuration file 'F:\winform\Quartz.NET-2.6\build\4.0\Debug\Quartz.Server\quartz.config'
+Using default implementation for object serializer
+Using default implementation for ThreadExecutor
+Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+Quartz Scheduler v.2.6.0.0 created.
+Registering Quartz Job Initialization Plug-in.
+RAMJobStore initialized.
+Remoting is allowing remote calls
+Registering remoting channel of type 'System.Runtime.Remoting.Channels.Tcp.TcpChannel' to port (555) with name (httpQuartz)
+Remoting channel registered successfully
+Successfully marshalled remotable scheduler under name 'QuartzScheduler'
+Scheduler meta-data: Quartz Scheduler (v2.6.0.0) 'ServerScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - access via remote invocation.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+Quartz scheduler 'ServerScheduler' initialized
+Quartz scheduler version: 2.6.0.0
+Parsing XML file: F:\winform\Quartz.NET-2.6\build\4.0\Debug\Quartz.Server\quartz_jobs.xml with systemId: ~/quartz_jobs.xml
+Adding 1 jobs, 1 triggers.
+Adding job: sampleGroup.sampleJob
+Scheduler ServerScheduler_$_NON_CLUSTERED started.
+Scheduler started successfully
+开始
+6659
+   在 Quartz.Server.SampleJob.PostValue(String Url, String value) 位置 F:\winform\Quartz.NET-2.6\server\Quartz.Server\SampleJob.cs:行号 380
+   在 Quartz.Server.SampleJob.Poc(String& str, Int32 startloc, Int32 length, String idleaf) 位置 F:\winform\Quartz.NET-2.6\server\Quartz.Server\SampleJob.cs:行号 221
+   在 Quartz.Server.SampleJob.FindTable(String& str, List`1 startSignLoc, List`1 endSignLoc, String idleaf) 位置 F:\winform\Quartz.NET-2.6\server\Quartz.Server\SampleJob.cs:行号 271
+   在 Quartz.Server.SampleJob.ConvertTableToA(String str, String idleaf) 位置 F:\winform\Quartz.NET-2.6\server\Quartz.Server\SampleJob.cs:行号 327
+无法连接到远程服务器
+结束
+Quartz.NET properties loaded from configuration file 'F:\winform\Quartz.NET-2.6\build\4.0\Debug\Quartz.Server\quartz.config'
+Using default implementation for object serializer
+Using default implementation for ThreadExecutor
+Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+Quartz Scheduler v.2.6.0.0 created.
+Registering Quartz Job Initialization Plug-in.
+RAMJobStore initialized.
+Remoting is allowing remote calls
+Registering remoting channel of type 'System.Runtime.Remoting.Channels.Tcp.TcpChannel' to port (555) with name (httpQuartz)
+Remoting channel registered successfully
+Successfully marshalled remotable scheduler under name 'QuartzScheduler'
+Scheduler meta-data: Quartz Scheduler (v2.6.0.0) 'ServerScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - access via remote invocation.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+Quartz scheduler 'ServerScheduler' initialized
+Quartz scheduler version: 2.6.0.0
+Parsing XML file: F:\winform\Quartz.NET-2.6\build\4.0\Debug\Quartz.Server\quartz_jobs.xml with systemId: ~/quartz_jobs.xml
+Adding 1 jobs, 1 triggers.
+Adding job: sampleGroup.sampleJob
+Scheduler ServerScheduler_$_NON_CLUSTERED started.
+Scheduler started successfully
+开始
+Quartz.NET properties loaded from configuration file 'F:\winform\Quartz.NET-2.6\build\4.0\Debug\Quartz.Server\quartz.config'
+Using default implementation for object serializer
+Using default implementation for ThreadExecutor
+Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+Quartz Scheduler v.2.6.0.0 created.
+Registering Quartz Job Initialization Plug-in.
+RAMJobStore initialized.
+Remoting is allowing remote calls
+Registering remoting channel of type 'System.Runtime.Remoting.Channels.Tcp.TcpChannel' to port (555) with name (httpQuartz)
+Remoting channel registered successfully
+Successfully marshalled remotable scheduler under name 'QuartzScheduler'
+Scheduler meta-data: Quartz Scheduler (v2.6.0.0) 'ServerScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - access via remote invocation.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+Quartz scheduler 'ServerScheduler' initialized
+Quartz scheduler version: 2.6.0.0
+Parsing XML file: F:\winform\Quartz.NET-2.6\build\4.0\Debug\Quartz.Server\quartz_jobs.xml with systemId: ~/quartz_jobs.xml
+Adding 1 jobs, 1 triggers.
+Adding job: sampleGroup.sampleJob
+Scheduler ServerScheduler_$_NON_CLUSTERED started.
+Scheduler started successfully
+开始
+6659
+   在 Quartz.Server.SampleJob.PostValue(String Url, String value) 位置 F:\winform\Quartz.NET-2.6\server\Quartz.Server\SampleJob.cs:行号 380
+   在 Quartz.Server.SampleJob.Poc(String& str, Int32 startloc, Int32 length, String idleaf) 位置 F:\winform\Quartz.NET-2.6\server\Quartz.Server\SampleJob.cs:行号 221
+   在 Quartz.Server.SampleJob.FindTable(String& str, List`1 startSignLoc, List`1 endSignLoc, String idleaf) 位置 F:\winform\Quartz.NET-2.6\server\Quartz.Server\SampleJob.cs:行号 271
+   在 Quartz.Server.SampleJob.ConvertTableToA(String str, String idleaf) 位置 F:\winform\Quartz.NET-2.6\server\Quartz.Server\SampleJob.cs:行号 327
+远程服务器返回错误: (500) 内部服务器错误。
+结束
+Quartz.NET properties loaded from configuration file 'F:\winform\Quartz.NET-2.6\build\4.0\Debug\Quartz.Server\quartz.config'
+Using default implementation for object serializer
+Using default implementation for ThreadExecutor
+Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+Quartz Scheduler v.2.6.0.0 created.
+Registering Quartz Job Initialization Plug-in.
+RAMJobStore initialized.
+Remoting is allowing remote calls
+Registering remoting channel of type 'System.Runtime.Remoting.Channels.Tcp.TcpChannel' to port (555) with name (httpQuartz)
+Remoting channel registered successfully
+Successfully marshalled remotable scheduler under name 'QuartzScheduler'
+Scheduler meta-data: Quartz Scheduler (v2.6.0.0) 'ServerScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - access via remote invocation.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+Quartz scheduler 'ServerScheduler' initialized
+Quartz scheduler version: 2.6.0.0
+Parsing XML file: F:\winform\Quartz.NET-2.6\build\4.0\Debug\Quartz.Server\quartz_jobs.xml with systemId: ~/quartz_jobs.xml
+Adding 1 jobs, 1 triggers.
+Adding job: sampleGroup.sampleJob
+Scheduler ServerScheduler_$_NON_CLUSTERED started.
+Scheduler started successfully
+开始
+6659
+   在 Quartz.Server.SampleJob.PostValue(String Url, String value) 位置 F:\winform\Quartz.NET-2.6\server\Quartz.Server\SampleJob.cs:行号 380
+   在 Quartz.Server.SampleJob.Poc(String& str, Int32 startloc, Int32 length, String idleaf) 位置 F:\winform\Quartz.NET-2.6\server\Quartz.Server\SampleJob.cs:行号 221
+   在 Quartz.Server.SampleJob.FindTable(String& str, List`1 startSignLoc, List`1 endSignLoc, String idleaf) 位置 F:\winform\Quartz.NET-2.6\server\Quartz.Server\SampleJob.cs:行号 271
+   在 Quartz.Server.SampleJob.ConvertTableToA(String str, String idleaf) 位置 F:\winform\Quartz.NET-2.6\server\Quartz.Server\SampleJob.cs:行号 327
+请求被中止: 操作超时。
+结束

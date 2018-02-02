@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:ns2="http://schemas.xmlsoap.org/soap/http" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://impl.ws.os.generaldata.com.cn/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:ns1="http://intf.ws.os.generaldata.com.cn/" name="IndicatorGisWSService" targetNamespace="http://impl.ws.os.generaldata.com.cn/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:import namespace="http://intf.ws.os.generaldata.com.cn/" location="http://60.29.17.43:8080/gjme-das-lan/cxf/indicatorService?wsdl=IndicatorGisWSInterface.wsdl" />
+  <wsdl:types />
+  <wsdl:binding name="IndicatorGisWSServiceSoapBinding" type="ns1:IndicatorGisWSInterface">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="queryReportIndicator">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="queryReportIndicator">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="queryReportIndicatorResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="queryAreaVO">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="queryAreaVO">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="queryAreaVOResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="queryType">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="queryType">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="queryTypeResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="queryUnitsArea">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="queryUnitsArea">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="queryUnitsAreaResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="transferData">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="transferData">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="transferDataResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="queryGisIndicator">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="queryGisIndicator">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="queryGisIndicatorResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateBiIndicator">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="updateBiIndicator">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="updateBiIndicatorResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="queryIndicatorVO">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="queryIndicatorVO">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="queryIndicatorVOResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="queryCategory">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="queryCategory">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="queryCategoryResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="queryByCategory">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="queryByCategory">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="queryByCategoryResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="transferDataTest">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="transferDataTest">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="transferDataTestResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="transferQueryUnit">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="transferQueryUnit">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="transferQueryUnitResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="queryUnits">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="queryUnits">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="queryUnitsResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="queryBiIndicator">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="queryBiIndicator">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="queryBiIndicatorResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="queryReportData">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="queryReportData">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="queryReportDataResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="queryReportType">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="queryReportType">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="queryReportTypeResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="IndicatorGisWSService">
+    <wsdl:port name="IndicatorGisWSPort" binding="tns:IndicatorGisWSServiceSoapBinding">
+      <soap:address location="http://60.29.17.43:8080/gjme-das-lan/cxf/indicatorService" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
